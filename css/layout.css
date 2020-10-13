@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#header { background:#eee; margin-bottom:50px; }
+#header nav { padding-left:50px; }
+#header nav li { display:inline-block; margin:30px; }
+#header nav li a { font-size:20px; font-weight:500; }
+
+table th, table td  { padding:20px 0; text-align:left; vertical-align:middle; }
+
+li { margin:0 10px; }
+
+p { margin:20px 0; }
+
+fieldset { display: block; }
+fieldset dl { display:block; margin:20px 0; }
+fieldset dt, fieldset dd { display:inline-block; }
+fieldset dt { width:100px; }
+
+.tab { margin-bottom:20px; }
+.tab li { display:inline-block; }
+.tab li a { display:block; padding:20px; border:1px solid #111; color:#fff; font-size:18px; background:#111; font-weight:300;  }
+
+
+
+/*************** blank_layer ***************/
+#blank_layer { display:none; position:fixed; left:0; top:0; width:100%; height:100%; background:#000; opacity:0.8; z-index:20; }
+.no_scroll { overflow:hidden; } /*스크롤제어*/
+/*************** //blank_layer ***************/
+
+/*************** modal ***************/
+.modal { display:none; }
+.modal_on { display:block; position:absolute; top:20%; left:calc(50% - 300px); width:600px; z-index:100; background:#fff; padding:50px; box-sizing:border-box; }
+/*************** modal ***************/

@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* WebFont */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+/*@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);*/
+/* //WebFont */
+
+/*****reset*****/
+html {
+    overflow-x: hidden;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+    /* vertical-align: middle; */
+    background: transparent;
+}
+
+/*HTML5 display-role reset for older browsers*/
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+/*//HTML5 display-role reset for older browsers*/
+
+body {
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;/*Thin*/
+    color: #111;
+    line-height: 1;
+    word-break: keep-all;
+    /*뷰표트 변환시 폰트크기 자동확대 방지*/
+    -webkit-text-size-adjust: 100%;
+}
+
+strong, b { font-weight:700;/*bold*/ }
+
+a { color:#111; text-decoration:none; background:transparent; }
+a:hover, a:active, a:focus, a:visited { text-decoration: none; }
+
+img {
+  border: none;
+  max-width: 100%;
+  display: block;
+}
+
+input[type='button'], input[type='radio'], input[type='checkbox'] { cursor: pointer; }
+
+
+button::-moz-focus-inner { padding:0; border:0; }
+
+table { border-collapse:collapse; border-spacing:0; }
+nav ul, ul, dl, ol { list-style:none; }
+textarea{ resize:none; }
+hr, legend, caption { display:none; }
+br { display:block;}
+
+address, caption, cite, code, dfn, em, var, i, em, address { font-style:normal;  }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+/*****reset*****/
